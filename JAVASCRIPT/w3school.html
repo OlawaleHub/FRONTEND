@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>W3school tutorial on javascript</title>
+</head>
+<body>
+
+ <h1>javascript can change HTML content</h1>
+
+ <p id="demo"> javascript is capable of changing the content in html</p>
+
+ <button type="buttton" onclick="document.getElementById('demo').innerHTML = 'Hello javascript!'  "> Click Me!
+ </button>
+  
+ <button type="buttton" onclick="document.getElementById('demo').style.fontSize = '50px'  "> Click Me!
+ </button>
+
+ <button type="buttton" onclick="document.getElementById('demo').style.display='none'"> Click Me!
+ </button>
+
+ <script>
+  let x,y,z;
+  x = 5;
+  y = 2;
+  z = x + y;
+  document.getElementById('demo').innerHTML = "The value of z is " + z + '.';
+ </script>
+  
+  <script>
+   /*const price1 = 10;
+   const price2 = 14;
+   let total = price1 + price2;
+   document.getElementById('demo').innerHTML = "The new price is ";*/
+  </script>
+  
+
+ 
+</body>
+</html>

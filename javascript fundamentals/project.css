@@ -1,0 +1,236 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif ; 
+}
+
+.head {
+  display: flex;
+}
+
+.heading {
+ display: flex;
+ padding-left: 150px;
+}
+
+.regiscan img {
+  width: 260px;
+  height: 150px;
+  padding-top:0;
+  margin-top: 0;
+}
+
+
+.link1 {
+ padding-top: 30px;
+}
+
+.link2 {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+  
+.link3 {
+  padding-top: 30px;
+  padding-left: 50px; 
+}
+
+.premium {
+  padding-top: 10px; 
+  background-color: green;
+  border-radius: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 10px;
+    display: inline-block;
+    line-height: 1px;
+    margin: 0;
+    padding: 2px;
+    letter-spacing: 3px;
+}
+
+.premium img {
+  width: 15px;
+  height: 15px;
+}
+
+.egiscan{
+  color: midnightblue;
+}
+
+.register {
+  padding-left: 40px;
+  color: midnightblue;
+  /* display: flex; */
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.register img {
+  position: absolute;
+    right: 30px;
+    width: 30%;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+
+.digital {
+  color: green;
+  width: 100%;
+}
+
+.started {
+  padding-top: 10px;
+    background-color: green;
+    border-radius: 20px;
+    position: absolute;
+    font-size: 10px;
+      display: inline-block;
+      line-height: 1px;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 3px;
+}
+
+.middle {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 50%; 
+}
+
+.phone {
+  position: absolute;
+    top: 90px;
+    right: 30px;
+    width: 30px;
+    height: 20px;
+    padding-top: 50px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 1.5em;
+  background-color: lightgreen;
+  margin-top: 30px;
+}
+
+.item1 {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: lightgreen;
+    margin-bottom: 30px;
+  /* margin-left: 30px; */
+}
+
+.grid {
+  color: green;
+display: flex;
+text-align: center;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 4 columns */
+  gap: 50px;
+  /* gap between items */
+  width: 50%;
+  text-align: center;  
+}
+
+.third {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.thirdtext {
+  position: absolute;
+  font-size: 40px;
+  text-align: right;
+    right: 70px;
+    height: 50%;
+    line-height: 70px;
+    color: midnightblue;
+}
+
+.simple {
+  color: green;
+}
+
+.form {
+  padding: 0;
+  margin: 0;
+    background-color: green;
+    border-radius: 40px;
+    position: absolute;
+    letter-spacing: 3px;
+    right: 30px;
+    font-size: 10px;
+    display: inline-block;
+    line-height: 1px;
+}
+
+.last {
+  padding-left: 80px;
+  display: flex;
+}
+
+.last img {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  height: 350px;
+  right: 70px;
+  position: absolute;
+  margin-top: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.attend {
+  line-height: 40px;
+  letter-spacing: 3px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: midnightblue; 
+}
+
+.save {
+   letter-spacing: 2px;
+    font-size: 30px;
+    line-height: 40px;
+    color: green;   
+}
+
+.about {
+  background-color: lightgreen;
+  padding-left: 50px;
+  letter-spacing: 4px;
+  margin-top: 60px;
+}
+
+.about p {
+  color: midnightblue;
+}
+
+.aboutl {
+  color:midnightblue;
+}
